@@ -1,7 +1,7 @@
 Origin: DXcool223 Repo
-Label: DXcool223
+Label: DXcool223 Repo
 Suite: stable
-Version: 1
+Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64e iphoneos-arm64
 Components: main
