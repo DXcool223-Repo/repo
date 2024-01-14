@@ -3,6 +3,6 @@ Label: DXcool223
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm64e
 Components: main
 Description: DXcool223 Repo
