@@ -1,0 +1,14 @@
+Package: Flex3beta
+Version: 1:3~Beta92
+Section: Tweaks
+Maintainer: DXcool223
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Architecture: iphoneos-arm64e
+Filename: debs/Flex3Roothide_beta92.deb
+Size: 25126792
+MD5sum: 66cc9074b68a2dcc9b3e5643297836a8
+Description: Flex 3 for Roothides Bootstrap and Roothides Dopamine Modified by DXcool223 Follow me on twitter: Dxcool223x
+Name: Flex 3 Beta
+Author: John Coates
+Depiction: https://dxcool223-repo.github.io/repo/depictions/
+
