@@ -1,0 +1,54 @@
+Package: Flex3beta
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: debs/Flex3beta56_Dopamine.deb
+Size: 16664508
+MD5sum: 3246f3caeced52771719a0d1ea45d67f
+SHA1: d7379ae60dcb5a2769d949b04b8162fd4a0762d0
+SHA256: 12674ffd6663b8dc7a8306dbfeb8d47d8d377329185d4e2b046b57e9d6311513
+Section: Tweaks
+Description: Flex 3 beta 56 for Dopamine & Palera1n by DXcool223
+Author: John Coates
+Name: Flex 3 Beta Dopamine & Palera1n
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: Flex3beta
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64e
+Maintainer: DXcool223
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/Flex3RootHide_beta92.deb
+Size: 19226496
+MD5sum: 5836ab7fb1946116df96636e506ffa33
+SHA1: d26bf460d3918c5b8585866d320148e5915fa699
+SHA256: 000399df422948a15237b129f138b3f3cc86c563f5d14acd49bbb59f2c97bbd7
+Section: Tweaks
+Description: Flex 3 beta92 for RootHides Bootstrap by DXcool223
+Author: John Coates
+Name: Flex 3 Beta RootHide Bootstrap
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: com.johncoates.Flex
+Version: 1:3~Beta56-roothide
+Architecture: iphoneos-arm64e
+Maintainer: DXcool223
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: me.tomt000.stageduo
+Filename: debs/Flex3beta56RootHide_Dopamine.deb
+Size: 16662624
+MD5sum: 3867148a5ec7b43341ca35a160ec42f2
+SHA1: 0fa5faa367c3367b4eb374a6d575c760e0ba7948
+SHA256: f5e57227bd76f915bd3e51983ebdb6c03245bb0aff8ee690d97b020f05fd86d3
+Section: Tweaks
+Description: Flex 3 for RootHides version of Dopamine by DXcool223
+Author: John Coates
+Name: Flex 3 Beta RootHide Dopamine IOS 15.x
+Recommended: com.rpetrich.rocketbootstrap
+
