@@ -29,6 +29,13 @@
             padding: 20px;
         }
 
+        iframe {
+            width: 100%; /* Make the video responsive */
+            max-width: 400px; /* Set a maximum width for iPhones */
+            height: 225px; /* Set the desired height for iPhones */
+            margin: 0 auto; /* Center the video */
+        }
+
         @media only screen and (max-width: 600px) {
             /* Styles for smaller screens (e.g., iPhone) */
             header {
@@ -37,6 +44,11 @@
 
             main {
                 padding: 10px;
+            }
+
+            iframe {
+                max-width: 100%; /* Full width for smaller screens */
+                height: 150px; /* Adjust height for smaller screens */
             }
         }
     </style>
