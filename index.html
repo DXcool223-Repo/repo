@@ -73,10 +73,6 @@
             background-color: #2980b9;
         }
 
-        .btn-container {
-            text-align: center;
-        }
-
         p {
             font-size: 18px;
             line-height: 1.5;
@@ -84,36 +80,6 @@
 
         img {
             border-radius: 5px;
-        }
-
-        /* Add a new style for snowflakes */
-        .snowflakes-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            pointer-events: none;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-        }
-
-        .snowflake {
-            position: absolute;
-            background-color: #fff;
-            width: 5px;
-            height: 5px;
-            border-radius: 50%;
-            opacity: 0.7;
-            animation: snowfall linear infinite;
-        }
-
-        @keyframes snowfall {
-            0% {
-                transform: translateY(0);
-            }
-            100% {
-                transform: translateY(100vh);
-            }
         }
     </style>
 </head>
@@ -128,9 +94,8 @@
       <li>Add to <a class="btn" href="sileo://source/https://dxcool223-repo.github.io/repo/">Sileo</a></li>
       <li>Add to <a class="btn" href="zbra://sources/add/https://dxcool223-repo.github.io/repo/">Zebra</a></li>
     </ul>
-    <div class="btn-container">
-        <a class="btn" href="https://twitter.com/Dxcool223x">Follow me on Twitter</a>
-    </div>
+    <a class="btn" href="https://twitter.com/Dxcool223x">Follow me on Twitter</a>
+
     <p>Do you believe in Jesus? The only way to heaven is having faith in Jesus. If you want to be saved, please watch this video, and I highly suggest you stay in God's word by listening to the Bible. I will provide my favorite app that I use.</p>
 
     <iframe width="560" height="315" src="./DXcool223Test_files/9M3-eybl1gQ.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
@@ -141,20 +106,5 @@
       </a>
     </div>
   </main>
-
-  <!-- Add the snowfall script here -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let snowflakesContainer = document.createElement("div");
-      snowflakesContainer.className = "snowflakes-container";
-      document.body.appendChild(snowflakesContainer);
-
-      for (let i = 0; i < 50; i++) {
-        let snowflake = document.createElement("div");
-        snowflake.className = "snowflake";
-        snowflakesContainer.appendChild(snowflake);
-      }
-    });
-  </script>
 </body>
 </html>
