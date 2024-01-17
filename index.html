@@ -85,6 +85,15 @@
         img {
             border-radius: 5px;
         }
+
+        /* Add a new style for snowflakes */
+        .snowfall-flakes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 9999;
+        }
     </style>
 </head>
 <body>
@@ -111,5 +120,23 @@
       </a>
     </div>
   </main>
+
+  <!-- Add the snowfall script here -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/loktar00/JQuery-Snowfall@1.7.0/dist/snowfall.jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(document).snowfall({
+        flakeCount : 50,
+        maxSpeed : 5,
+        maxSize : 5,
+        round: true,
+        collection: '.snowfall-flakes'  // Specify the class for snowflakes
+      });
+    });
+  </script>
+
+  <!-- Add snowflake elements -->
+  <div class="snowfall-flakes"></div>
 </body>
 </html>
