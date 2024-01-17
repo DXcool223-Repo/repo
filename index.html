@@ -30,11 +30,18 @@
             padding: 20px;
         }
 
-        iframe {
+        div.video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+        }
+
+        div.video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            max-width: 800px;
-            height: 450px;
-            margin: 0 auto;
+            height: 100%;
         }
 
         @media only screen and (max-width: 600px) {
@@ -44,10 +51,6 @@
 
             main {
                 padding: 10px;
-            }
-
-            iframe {
-                height: 250px;
             }
         }
 
@@ -98,7 +101,9 @@
 
     <p>Do you believe in Jesus? If so, amazing! If not, I challenge you to pray to God because he is real, and judgment day is near. The only way to heaven is having faith in Jesus. If you want to be saved, please watch this video, and I highly suggest you stay in God's word by listening to the Bible. I will provide my favorite app that I use.</p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9M3-eybl1gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/9M3-eybl1gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div><br></div><div><br></div><div>Click the App Icon below To download The Daily Audio Bible From The App Store</div><div><br></div><div>
       <a href="https://apps.apple.com/gb/app/daily-audio-bible-mobile-app/id1215838266">
