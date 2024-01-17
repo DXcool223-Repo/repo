@@ -87,12 +87,33 @@
         }
 
         /* Add a new style for snowflakes */
-        .snowfall-flakes {
+        .snowflakes-container {
             position: fixed;
             top: 0;
             left: 0;
             pointer-events: none;
+            width: 100%;
+            height: 100%;
             z-index: 9999;
+        }
+
+        .snowflake {
+            position: absolute;
+            background-color: #fff;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            opacity: 0.7;
+            animation: snowfall linear infinite;
+        }
+
+        @keyframes snowfall {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
         }
     </style>
 </head>
@@ -122,21 +143,18 @@
   </main>
 
   <!-- Add the snowfall script here -->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/loktar00/JQuery-Snowfall@1.7.0/dist/snowfall.jquery.min.js"></script>
   <script>
-    $(document).ready(function(){
-      $(document).snowfall({
-        flakeCount : 50,
-        maxSpeed : 5,
-        maxSize : 5,
-        round: true,
-        collection: '.snowfall-flakes'  // Specify the class for snowflakes
-      });
+    document.addEventListener("DOMContentLoaded", function() {
+      let snowflakesContainer = document.createElement("div");
+      snowflakesContainer.className = "snowflakes-container";
+      document.body.appendChild(snowflakesContainer);
+
+      for (let i = 0; i < 50; i++) {
+        let snowflake = document.createElement("div");
+        snowflake.className = "snowflake";
+        snowflakesContainer.appendChild(snowflake);
+      }
     });
   </script>
-
-  <!-- Add snowflake elements -->
-  <div class="snowfall-flakes"></div>
 </body>
 </html>
