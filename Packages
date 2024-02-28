@@ -72,17 +72,16 @@ Recommended: com.rpetrich.rocketbootstrap
 
 Package: com.randy420.tools
 Version: 2.3.6
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 1484
-Pre-Depends: rootless-compat(>= 0.1)
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
-Filename: debs/randy420.tools_2.3.6.deb
-Size: 383128
-MD5sum: 394f7bd97e6490af277de4835c58d024
-SHA1: 7844efc851526d17bffabeab177caff1a59ce1d1
-SHA256: f44cce91824ae336086fde557479e7025362de32a640ac82bfb0fd8af4ab4266
+Filename: debs/com.randy420.tools_2.3.6_iphoneos-arm64.deb
+Size: 375814
+MD5sum: 335943091389e3142f500ee587b0ba99
+SHA1: f10f25f9fba74c039f5851bbefd069a89dcc9405
+SHA256: 7acaacaa7b40288eaec8093919526e99c9748c1639431620cc554b81d70b4705
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
@@ -93,20 +92,19 @@ Name: 420 Tools
 
 Package: ru.rj.ftt
 Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: AliCydia <randy.skinner@hotmail.com>
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 19856
-Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: debs/ftt-1.deb
-Size: 37941084
-MD5sum: 27eb378cb4480d2fc280c94d448be0b4
-SHA1: cfa315adb2343259185fd36ab0c37ec46f71a780
-SHA256: 31228cf838e9542f3c366ed484f48625f147907eb39c2d0509f6db2da652e712
+Filename: debs/ru.rj.ftt_1.1_iphoneos-arm64.deb
+Size: 18977046
+MD5sum: aa4d09f002378a78f882e5947c0545ba
+SHA1: 91337dc693e44e48950c21932b9ba490dc49eb9e
+SHA256: 6ecd43a5737ea6bdb85f2088f1b20b265cd198e9370b1f12bb3754f1539f0faa
 Section: Utilities
 Homepage: https://theemeraldisle.family
-Description: First made by iPadkid358 - then updated by AliCydia. Change Flex 3 patches into Theos projects using simple terminal commands.
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
   
  - Use 'ftt -?' For a full list of options.
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
